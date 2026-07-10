@@ -9,21 +9,7 @@ test('Search attractions', async ({ page }) => {
   await page.getByText(/Sunway/i).first().click();
   // await page.waitForTimeout(10000);
   await page.keyboard.press('Enter');
-  // await page.keyboard.press('Enter');
-  // await page.keyboard.press('Enter');
-
-
-
-
-
-
-
-  //date
-  // await page.getByTestId('search-button').click();
-  // await page.getByTestId('search-button').click();
-  // await page.getByTestId('search-button').click();
+  
   await page.pause();
-
-  //date selection
 
 });
